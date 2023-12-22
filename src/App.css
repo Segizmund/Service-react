@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.app__wrapper {
+  display: grid;
+  grid-template-areas: 
+  "Head Head"
+  "Under Under"
+  "Left Right";
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: 5fr 5fr;
+  
+}
+.Header{
+  grid-area: Head;
+  max-width: 1800px;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+.Description, .Techmology{
+  cursor: pointer;
+  display: block;
+}
+.Under__header{
+  grid-area: Under;
+  border-bottom: 1px solid lightgray;
+}
+.Create__btn{
+  display: block;
+  cursor: pointer;
+  background-color: #0096DF;
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.Upper__line{
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+.Under__line{
+  padding: 10px;
+}
+.Toggle__bnt{
+  display: flex;
+  justify-content: space-evenly;
+  width: 12%;
+}
+.Toggle__bnt span{
+  cursor: pointer;
+  color: #667085;
+}
+.Right__sidebtn{
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+.Right__sidebtn span{
+  margin-right: 2%;
+  cursor: pointer;
+  color: #667085;
+}
+.Left__side{
+  grid-area: Left;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+}
+.Side__bar nav a{
+  display: block;
+}
+.Right__side{
+  grid-area: Right;
+}
+.Left__side,.Right__content{
+  padding: 10px;
+}
+.Right__content p{
+  margin-bottom: 3%;
+}
+.Right__content ol {
+  padding-left: 5%;
+  padding-top: 2%;
+}
