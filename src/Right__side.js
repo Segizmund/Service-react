@@ -2,8 +2,8 @@ function Right__side(){
    return (
     <div className="Right__side">
     <div className="Right__sidebtn">
-      <span>Общая информация</span>
-      <span>Формы технологий</span>
+      <span className="General__btn Active">Общая информация</span>
+      <span className="Techno__btn">Формы технологий</span>
     </div>
     <div className="Right__content">
       <p>

@@ -15,7 +15,6 @@ body{
   "Left Right";
   grid-template-rows: 40px 1fr;
   grid-template-columns: 5fr 5fr;
-  
 }
 .Header{
   grid-area: Head;
@@ -47,9 +46,6 @@ body{
   border-bottom: 1px solid lightgray;
   padding: 10px;
 }
-.Under__line{
-  padding: 10px;
-}
 .Toggle__bnt{
   display: flex;
   justify-content: space-evenly;
@@ -58,23 +54,71 @@ body{
 .Toggle__bnt span{
   cursor: pointer;
   color: #667085;
-}
-.Right__sidebtn{
-  border-bottom: 1px solid lightgray;
   padding: 10px;
-}
-.Right__sidebtn span{
-  margin-right: 2%;
-  cursor: pointer;
-  color: #667085;
 }
 .Left__side{
   grid-area: Left;
   border-right: 1px solid lightgray;
   height: 100vh;
 }
-.Side__bar nav a{
+.Title__category{
+  font-weight: 500;
+}
+.Card__technology{
+  display: grid;
+  cursor: pointer;
+  grid-template-rows: repeat(2, auto);
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 15px 0px;
+}
+.Card__technology:hover{
+  border: 1px solid #7D8291;
+}
+.Title__card{
+  display: flex;
+  justify-content: space-between;
+}
+.Title__technology{
+  padding-top: 5px;
+}
+.Status{
   display: block;
+  background-color: #F2F4F7;
+  border-radius: 5px;
+  padding: 5px;
+  color: #667085;
+  font-weight: 500;
+}
+.Card__container{
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  gap: 4px 5%;
+}
+.Info__Supply ,.About__technology{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 4px 16px;
+}
+.Date__supply{
+  color: #B6BAC7;
+}
+.Right__sidebtn{
+  border-bottom: 1px solid lightgray;
+  display: flex;
+}
+.Right__sidebtn span{
+  padding: 10px;
+  margin-right: 2%;
+  cursor: pointer;
+  color: #667085;
+  display: block;
+}
+.Active{
+  border-bottom: 2px solid black;
 }
 .Right__side{
   grid-area: Right;

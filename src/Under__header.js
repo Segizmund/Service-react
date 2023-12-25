@@ -7,7 +7,7 @@ function Under__header() {
     </div>
     <div className="Under__line">
       <div className="Toggle__bnt">
-      <span className="Description">Описание</span>
+      <span className="Description Active">Описание</span>
       <span className="Technology">Технология</span>
       </div>
     </div>

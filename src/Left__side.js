@@ -1,7 +1,11 @@
+import Card__technology from './Card__technology.js';
 function Left__side() {
   return (
     <div className="Left__side">
-      
+    <div>
+      <span className="Title__category">Ваши технологии</span>
+    </div>
+      <Card__technology/>
     </div>
   );
 }
