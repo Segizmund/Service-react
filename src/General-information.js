@@ -1,11 +1,6 @@
-function Right__side(){
+function General__information(){
    return (
-    <div className="Right__side">
-    <div className="Right__sidebtn">
-      <span className="General__btn Active">Общая информация</span>
-      <span className="Techno__btn">Формы технологий</span>
-    </div>
-    <div className="Right__content">
+    <div className="General__information">
       <p>
         Департамент научно-исследовательской деятельности является структурным подразделением Университета, 
         обеспечивающим координацию планирования и организации научно-исследовательской деятельности, 
@@ -25,8 +20,7 @@ function Right__side(){
         <li>При возникновении вопросов пишите на электронную почту: help.innovations@misis.ru</li>
       </ol>
     </div>
-    </div>
   );
 }
 
-export default Right__side;
+export default General__information;

@@ -1,4 +1,4 @@
-import Card__technology from './Card__technology.js';
+import Card__technology from './Card-technology.js';
 function Left__side() {
   return (
     <div className="Left__side">

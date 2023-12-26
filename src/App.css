@@ -16,6 +16,7 @@ body{
   grid-template-rows: 40px 1fr;
   grid-template-columns: 5fr 5fr;
 }
+/*Style Header.js*/
 .Header{
   grid-area: Head;
   max-width: 1800px;
@@ -23,7 +24,8 @@ body{
   background-color: white;
   border-bottom: 1px solid lightgray;
 }
-.Description, .Techmology{
+/*Style Under-header.js*/
+.Description, .Technology{
   cursor: pointer;
   display: block;
 }
@@ -56,6 +58,7 @@ body{
   color: #667085;
   padding: 10px;
 }
+/*Style Left-side.js*/
 .Left__side{
   grid-area: Left;
   border-right: 1px solid lightgray;
@@ -64,6 +67,7 @@ body{
 .Title__category{
   font-weight: 500;
 }
+/*Style Card-technology.js*/
 .Card__technology{
   display: grid;
   cursor: pointer;
@@ -106,6 +110,7 @@ body{
 .Date__supply{
   color: #B6BAC7;
 }
+/*Style Right-side.js*/
 .Right__sidebtn{
   border-bottom: 1px solid lightgray;
   display: flex;
@@ -132,4 +137,33 @@ body{
 .Right__content ol {
   padding-left: 5%;
   padding-top: 2%;
+}
+/*Style Form-technology.js*/
+.Form__technology{
+  display: grid;
+  gap: 30px;
+}
+.Item__Create{
+  display: grid;
+  cursor: pointer;
+  grid-template-rows: repeat(2, auto);
+  gap: 15px 0px;
+}
+.Item__Create .Date__supply{
+  color: black;
+}
+.Item__Create .Title__technology{
+  display: inline-block;
+  padding: 0;
+}
+.Create__technology{
+  display: inline-block;
+  text-decoration: none;
+}
+.Item__form{
+  color: #B6BAC7;
+}
+.Item__Create:not(:first-child){
+  padding-top: 15px;
+  border-top: 1px solid #D3D3D3;
 }
