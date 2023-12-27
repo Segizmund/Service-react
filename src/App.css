@@ -115,12 +115,12 @@ body{
   border-bottom: 1px solid lightgray;
   display: flex;
 }
-.Right__sidebtn span{
+.Right__sidebtn a{
   padding: 10px;
-  margin-right: 2%;
+  
   cursor: pointer;
   color: #667085;
-  display: block;
+  display: inline-block;
 }
 .Active{
   border-bottom: 2px solid black;
