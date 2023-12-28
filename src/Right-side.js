@@ -3,15 +3,16 @@ import Form__technology from './Form-technology.js';
 import {
   Route,
   Routes,
-  Link
+  Link,
+  NavLink
 } from "react-router-dom"
 
 function Right__side() {
   return (
     <div className="Right__side">
     <div className="Right__sidebtn">
-      <Link to="/Gninfo" className="General__btn Active"><a>Общая информация</a></Link>
-      <Link to="/Frminfo" className="Techno__btn"><a>Формы технологий</a></Link>
+      <NavLink to="/Gninfo"  className="General__btn"><span>Общая информация</span></NavLink>
+      <NavLink to="/Frminfo" className="Techno__btn"><span>Формы технологий</span></NavLink>
     </div>
     <div className="Right__content">
     <Routes>

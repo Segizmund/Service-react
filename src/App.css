@@ -115,15 +115,16 @@ body{
   border-bottom: 1px solid lightgray;
   display: flex;
 }
-.Right__sidebtn a{
-  padding: 10px;
-  
+.Right__sidebtn span{
   cursor: pointer;
   color: #667085;
+  text-decoration: none;
   display: inline-block;
+  padding: 10px;
 }
-.Active{
+.active span{
   border-bottom: 2px solid black;
+  color: black;
 }
 .Right__side{
   grid-area: Right;
