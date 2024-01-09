@@ -107,7 +107,7 @@ body{
   grid-template-rows: repeat(2, auto);
   gap: 4px 16px;
 }
-.Date__supply{
+.Date__supply, .Status__supply{
   color: #B6BAC7;
 }
 /*Style Right-side.js*/

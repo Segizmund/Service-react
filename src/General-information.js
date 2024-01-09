@@ -1,5 +1,5 @@
-function General__information(){
-   return (
+function General__information() {
+  return (
     <div className="General__information">
       <p>
         Департамент научно-исследовательской деятельности является структурным подразделением Университета, 
