@@ -1,16 +1,8 @@
 import Card__technology from './Card-technology.js';
 
-function Left__side() {
+function Left__side(props) {
 
-  let CardTitle = [{
-    id: 1,
-    Title: 'MelGU-0001',
-    Status: 'Формирование',
-    DateSupply: '12.12.2023',
-    StatusSupply: 'Не подана'
-  }];
-
-  let CardElements = CardTitle
+  let CardElements = props.CardTitle
     .map(Card => <Card__technology
       id={Card.id} 
       Title={Card.Title} 
