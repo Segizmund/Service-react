@@ -2,7 +2,7 @@ import Card__technology from './Card-technology.js';
 
 function Left__side(props) {
 
-  let CardElements = props.CardTitle
+  let CardElements = props.CardDescrip.CardTitle
     .map(Card => <Card__technology
       id={Card.id} 
       Title={Card.Title} 
