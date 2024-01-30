@@ -11,14 +11,15 @@ function Right__side() {
   return (
     <div className="Right__side">
     <div className="Right__sidebtn">
-      <NavLink to="/Gninfo"  className="General__btn"><span>Общая информация</span></NavLink>
-      <NavLink to="/Frminfo" className="Techno__btn"><span>Формы технологий</span></NavLink>
+      <NavLink to="description/Gninfo"  className="General__btn"><span>Общая информация</span></NavLink>
+      <NavLink to="description/Frminfo" className="Techno__btn"><span>Формы технологий</span></NavLink>
     </div>
     <div className="Right__content">
     <Routes>
       <Route index element={<General__information/>} />
-      <Route path="/Gninfo" element={<General__information/>} />
-      <Route path="/Frminfo" element={<Form__technology/>} />
+      <Route path="description" element={<General__information/>} />
+      <Route path="description/Gninfo" element={<General__information/>} />
+      <Route path="description/Frminfo" element={<Form__technology/>} />
     </Routes>
     </div>
     </div>

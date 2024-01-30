@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+  Route,
+  Routes,
+  Link,
+  NavLink
+} from "react-router-dom"
+
 function Under__header() {
   return (
     <div className="Under__header">
@@ -6,9 +13,9 @@ function Under__header() {
       <span className="Create__btn">Создать</span>
     </div>
     <div className="Under__line">
-      <div className="Toggle__bnt">
-      <span className="Description Active">Описание</span>
-      <span className="Technology">Технология</span>
+      <div className="Toggle__btn">
+      <NavLink to="/description" className="Description"><span>Описание</span></NavLink>
+      <NavLink to="/technology" className="Technology"><span>Технология</span></NavLink>
       </div>
     </div>
     </div>

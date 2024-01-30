@@ -13,7 +13,7 @@ function App(props) {
     <div className="app__wrapper">
     <Header/>
     <Under__header/>
-  <Left__side CardDescrip={props.state.Left_card} />
+    <Left__side CardDescrip={props.state.Left_card} />
     <Right__side/>
     </div>
   );

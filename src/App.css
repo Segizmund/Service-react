@@ -25,9 +25,9 @@ body{
   border-bottom: 1px solid lightgray;
 }
 /*Style Under-header.js*/
-.Description, .Technology{
+.Description span, .Technology span{
   cursor: pointer;
-  display: block;
+  display: inline-block;
 }
 .Under__header{
   grid-area: Under;
@@ -48,15 +48,17 @@ body{
   border-bottom: 1px solid lightgray;
   padding: 10px;
 }
-.Toggle__bnt{
+.Toggle__btn{
   display: flex;
-  justify-content: space-evenly;
-  width: 12%;
+  justify-content: flex-start;
 }
-.Toggle__bnt span{
+.Toggle__btn span{
   cursor: pointer;
   color: #667085;
   padding: 10px;
+}
+.Toggle__btn NavLink{
+  text-decoration: none;
 }
 /*Style Left-side.js*/
 .Left__side{
