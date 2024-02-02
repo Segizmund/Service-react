@@ -8,17 +8,10 @@ body{
   margin: 0 auto;
 }
 .app__wrapper {
-  display: grid;
-  grid-template-areas: 
-  "Head Head"
-  "Under Under"
-  "Left Right";
-  grid-template-rows: 40px 1fr;
-  grid-template-columns: 5fr 5fr;
+
 }
 /*Style Header.js*/
 .Header{
-  grid-area: Head;
   max-width: 1800px;
   padding: 10px;
   background-color: white;
@@ -30,7 +23,6 @@ body{
   display: inline-block;
 }
 .Under__header{
-  grid-area: Under;
   border-bottom: 1px solid lightgray;
 }
 .Create__btn{
@@ -62,7 +54,7 @@ body{
 }
 /*Style Left-side.js*/
 .Left__side{
-  grid-area: Left;
+  width: 50%;
   border-right: 1px solid lightgray;
   height: 100vh;
 }
@@ -129,6 +121,7 @@ body{
   color: black;
 }
 .Right__side{
+  width: 50%;
   grid-area: Right;
 }
 .Left__side,.Right__content{
@@ -169,4 +162,31 @@ body{
 .Item__Create:not(:first-child){
   padding-top: 15px;
   border-top: 1px solid #D3D3D3;
+}
+/*Style Technology*/
+.Tech__wrapp{
+  width:100%;
+}
+.Request__tech{
+  padding: 10px;
+}
+.Info__tech{
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+.Descrip__tech{
+  display: grid;
+  grid-area: Right;
+  cursor: pointer;
+  grid-template-rows: repeat(2, auto);
+  gap: 0px 0px;
+}
+.Descrip__tech .Info__Supply{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 5px 5px;
 }

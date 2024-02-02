@@ -16,11 +16,11 @@ function Right__side() {
     </div>
     <div className="Right__content">
     <Routes>
-      <Route path="/description">
-      <Route index element={<General__information/>} />
-      <Route path="Gninfo" element={<General__information/>} />
+     
+      <Route path="/description" element={<General__information/>} />
+      <Route path="/description/Gninfo" element={<General__information/>} />
       <Route path="Frminfo" element={<Form__technology/>} />
-      </Route>
+  
     </Routes>
     </div>
     </div>
