@@ -65,6 +65,9 @@ function Technology() {
             </div>
             <div className="Descrip__request">
                 <h3>Описание запроса</h3>
+                <div id="">Hello Summernote</div>
+                <div id="summernote">Hello Summernote</div>
+                <div id="summernote">Hello Summernote</div>
             </div>
             </div>
         </div>
